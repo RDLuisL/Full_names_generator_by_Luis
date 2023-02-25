@@ -8,16 +8,75 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
 
-  let pronoun = ["the", "Our"];
-  let adjetive = ["great", "big"];
-  let noun = ["jogger", "racoon"];
+  let name = [
+    "sofia",
+    "mateo",
+    "isabella",
+    "tomas",
+    "martina",
+    "matias",
+    "valentina",
+    "lucas",
+    "catalina",
+    "benja",
+    "antonia",
+    "santiago",
+    "florencia",
+    "ignacio",
+    "emilia",
+    "vicente",
+    "constanza",
+    "joaquin",
+    "javiera",
+    "maxi",
+    "triny",
+    "felipe",
+    "francisca",
+    "nicolas",
+    "amelia",
+    "bruno",
+    "cami",
+    "agustin",
+    "majose",
+    "cristobal"
+  ];
+  let surname = [
+    "gonzalez",
+    "rodriguez",
+    "fernandez",
+    "perez",
+    "diaz",
+    "munoz",
+    "silva",
+    "contreras",
+    "sanchez",
+    "castro",
+    "morales",
+    "flores",
+    "vasquez",
+    "alvarez",
+    "gomez",
+    "torres",
+    "espinoza",
+    "cortes",
+    "bravo",
+    "herrera",
+    "ortiz",
+    "rivas",
+    "mendez",
+    "araya",
+    "pinto",
+    "rojas",
+    "sepulveda",
+    "valenzuela",
+    "salazar",
+    "jara"
+  ];
 
-  for (let i = 0; i < pronoun.length; i++) {
-    for (let j = 0; j < adjetive.length; j++) {
-      for (let k = 0; k < noun.length; k++) {
-        let nombredom = pronoun[i] + adjetive[j] + noun[k] + ".com";
-        console.log(nombredom);
-      }
+  for (let i = 0; i < name.length; i++) {
+    for (let j = 0; j < surname.length; j++) {
+      let nombredom = name[i] + surname[j];
+      console.log(nombredom);
     }
   }
 };
